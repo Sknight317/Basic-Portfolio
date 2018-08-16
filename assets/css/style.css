@@ -52,7 +52,8 @@ ul {
 
 li {
     float: right;
-    border-right: solid 2px #777777
+    border-right: solid 2px #777777;
+
 }
 .About{
     background-color: #ffffff;
