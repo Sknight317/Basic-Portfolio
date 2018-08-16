@@ -39,15 +39,20 @@ header {
     border-bottom: 2px solid #cccccc;
     font-family: Georgia, 'Times New Roman', Times, serif;
     padding: 20px;
+    z-index: 10;
 }
 
 
-#links {
-    position:fixed;
-    top: 2;
-    right: 200px;
-    word-spacing: 30px;
+ul {
+    list-style-type: none;
+    margin-right: 220px;
+    padding: 0;
+    float: right;
+}
 
+li {
+    float: right;
+    border-right: solid 2px #777777
 }
 .About{
     background-color: #ffffff;
@@ -67,9 +72,18 @@ p {
     
   }
 
-a {
-    color: #777777;
-}
+  a:link {color: #777777}
+  a:visited {color: #4aaaa5}
+  a:hover {color: palevioletred}
+
+  a {
+    text-decoration: none;
+    text-align: center;
+    padding: 4px;
+    display: inline;
+    background-color: #ffffff;
+    float: right;
+    }
 
 footer {
     text-align: center;
